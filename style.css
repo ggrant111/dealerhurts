@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+#dealerHurtContainer {
+    display: flex;
+}
+
+#selectedProductsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#selectedProductsContainer .card {
+    flex: 0 0 calc(50% - 20px); /* Adjust card width to take half the container width minus gap */
+    margin-bottom: 10px; /* Optional, for spacing between rows */
+}
+
+@media screen and (max-width: 600px) {
+    #selectedProductsContainer .card {
+        flex-basis: 100%; /* Full width for smaller screens */
+    }
+}
