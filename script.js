@@ -24,9 +24,11 @@ function initialize(productData, hurtsList) {
                             description: product['CDK DESCRIPTION'],
                             details: {
                                 Description: product['Description'],
+                                Hurts: product['Dealer Hurts'],
                                 ValueProp: product['Value Prop'],
                                 Recurring: product['Recurring'],
-                                OneTime: product['One-Time']
+                                OneTime: product['One-Time'],
+                                Catalog: product['Catalog']
                             }
                         });
                     });
@@ -71,7 +73,9 @@ function initialize(productData, hurtsList) {
                             productCard.className = 'card';
                             productCard.innerHTML = `
                                 <h3>${product['CDK DESCRIPTION']}</h3>
+                                <p><strong>Catalog #: ${product['CDK CATALOG']}</strong></p>                            
                                 <p><strong>Description:</strong> ${product['Description']}</p>
+                                <p><strong>Hurts Solved:</strong> ${product['Dealer Hurts']}</p
                                 <p><strong>Value Proposition:</strong> ${product['Value Prop']}</p>
                                 <p><strong>Recurring Cost:</strong> ${product['Recurring']}</p>
                                 <p><strong>One-Time Cost:</strong> ${product['One-Time']}</p>
