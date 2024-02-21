@@ -20,7 +20,7 @@
                 "Canadian Recurring": "1899",
                 "Canadian One-Time": "6250",
                 "Description": "",
-                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory",
+                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory, Low front end gross",
                 "Value Prop": "Customizable to fit your processes, Easy to use driving productivity, View and manage your traffic from lead origination to deal close, Have smarter conversations with customers via video, text and email, Increase relationship building and customer retention"
             },
             {
@@ -31,7 +31,7 @@
                 "Canadian Recurring": "2,795",
                 "Canadian One-Time": "6,295",
                 "Description": "Bundle includes CRM, internet lead management, mobile app with drivers license scanner, desking, text, AutoQuote, GoldDigger software and DealBuilder Showroom.",
-                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory",
+                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory, Low front end gross",
                 "Value Prop": "Customizable to fit your processes, Easy to use driving productivity, View and manage your traffic from lead origination to deal close, Have smarter conversations with customers via video, text and email, Increase relationship building and customer retention"
             },
             {
@@ -42,7 +42,7 @@
                 "Canadian Recurring": "3,695",
                 "Canadian One-Time": "7,495",
                 "Description": "Bundle includes CRM, internet lead management, mobile app with drivers license scanner, desking, text, AutoQuote, GoldDigger software, DealBuilder showroom, Xchange, AutoPilot software and email.",
-                "Dealer Hurts": "",
+                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory, Low front end gross",
                 "Value Prop": "Customizable to fit your processes, Easy to use driving productivity, View and manage your traffic from lead origination to deal close, Have smarter conversations with customers via video, text and email, Use robust data mining tools to identify opportunities to personalize the customer experience., Increase relationship building and customer retention"
             },
             {
@@ -64,8 +64,9 @@
                 "Canadian Recurring": "1,795",
                 "Canadian One-Time": "2,495",
                 "Description": "",
-                "Dealer Hurts": "",
-                "Value Prop": ""
+                "Dealer Hurts": "Poor customer retention,Acquiring new customers,Poor lead management,Struggle to acquiring inventory, Low front end gross",
+                "Value Prop": "Customizable to fit your processes, Easy to use driving productivity, View and manage your traffic from lead origination to deal close, Have smarter conversations with customers via video, text and email, Use robust data mining tools to identify opportunities to personalize the customer experience., Increase relationship building and customer retention"
+            
             },
             {
                 "CDK CATALOG": "4570682",
@@ -684,7 +685,7 @@
                 "Canadian Recurring": "995",
                 "Canadian One-Time": "N/A",
                 "Description": "Add on to Elead CRM that sends a response to OEM generated email leads to ensure the dealer is compliant with OEM rules on email response times.",
-                "Dealer Hurts": "Slow response to OEM leads",
+                "Dealer Hurts": "Slow response to OEM leads, Slow response to internet leads",
                 "Value Prop": "Easy to remain OEM compliant\nFree up staff"
             },
             {
@@ -2167,9 +2168,9 @@
                 "One-Time": "N/A",
                 "Canadian Recurring": "2.50 PNB",
                 "Canadian One-Time": "N/A",
-                "Description": "",
-                "Dealer Hurts": "",
-                "Value Prop": ""
+                "Description": "AutoPilot calls are outbound phone calls to prospects identified with the AutoPilot software to drive return service business. Dealership must have AutoPilot software that is included with Plus bundle.",
+                "Dealer Hurts": "Sales and BDC staffing/turnover\n Slow service lane traffic\n Low revenue per RO",
+                "Value Prop": "Only owned and operated automotive specific all call center\nHigh trained automotive BDC professionals"
             },
             {
                 "CDK CATALOG": "4570134",

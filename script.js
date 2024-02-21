@@ -77,8 +77,8 @@ function initialize(productData, hurtsList) {
                                 <p><strong>Description:</strong> ${product['Description']}</p>
                                 <p><strong>Hurts Solved:</strong> ${product['Dealer Hurts']}</p
                                 <p><strong>Value Proposition:</strong> ${product['Value Prop']}</p>
-                                <p><strong>Recurring Cost:</strong> ${product['Recurring']}</p>
-                                <p><strong>One-Time Cost:</strong> ${product['One-Time']}</p>
+                                <p><strong>Recurring Cost: $</strong> ${product['Recurring']}</p>
+                                <p><strong>One-Time Cost: $</strong> ${product['One-Time']}</p>
                             `;
                             selectedProductsContainer.appendChild(productCard);
                         }
